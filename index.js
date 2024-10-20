@@ -12,7 +12,7 @@ app.get('/movies', async (req, res) => {
   res.json({ movies });
 });
 
-//endpoint to get employee details by id
+//endpoint to get movie details by id
 app.get('/movies/details/:id', async (req, res) => {
   let movie = getMovieById(parseInt(req.params.id));
 
