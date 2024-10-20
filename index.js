@@ -22,7 +22,7 @@ app.get('/movies/details/:id', async (req, res) => {
 });
 
 app.get('/', (req, res) => {
-  res.send('BD6.6 - HW1');
+  res.send('BD6.6 - HW - 1');
 });
 
 module.exports = { app };
